@@ -3,6 +3,8 @@
 
 The following graph shows what modules can import others. 
 These arrows are strict and show **the only** import relationships there can be.
+(Only the order need to be remembered, since one module can be dependent of all the above, 
+but no arrow go upward.)
 More details below.
 
 ```
