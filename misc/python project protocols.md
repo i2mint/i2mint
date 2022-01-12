@@ -97,7 +97,8 @@ No package code should import stuff from here.
 
 ### `{pkg_name}/{pkg_name}/scrap`
 
-For work in progress or relevant code we may or may not want to integrate
+A place for ideas, WIPs and POCs. 
+Any relevant code we may or may not want to integrate, but want to keep close by, to make it easy to see, test, and eventually integrate.
 Folder has a `__init__.py` to make it import-accessible
 No package code should import stuff from here.
 
