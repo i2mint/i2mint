@@ -1,5 +1,5 @@
 
-## package files
+# package files
 
 The following graph shows what modules can import others. 
 These arrows are strict and show **the only** import relationships there can be.
