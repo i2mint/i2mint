@@ -1,0 +1,62 @@
+           stream2py: 
+            test2doc: 
+               creek: 
+                 dol: 
+             epythet: 
+              strand: 
+                  i2: 
+                 oui: 
+              recode: 
+              viable: 
+              linkup: 
+              atypes: 
+           config2py: 
+      videostream2py: 
+        plcstream2py: 
+              tested: i2
+              embody: dol
+                  qh: py2http
+                verb: lined
+             py2json: i2
+             http2py: i2
+             py2http: i2
+              umpyre: py2store
+             py2mqtt: stream2py
+               front: i2
+                isee: epythet
+              forged: lined
+              fitted: i2
+               lined: i2
+            splatter: oui
+              sqldol: dol
+              sshdol: py2store
+               s3dol: dol
+              ftpdol: dol
+           arangodol: dol
+          dropboxdol: dol
+            redisdol: dol
+          pydrivedol: dol
+              tabled: py2store
+           dynamodol: dol
+             odbcdol: dol
+            couchdol: dol
+          aiofiledol: dol
+      flaskstream2py: stream2py
+      audiostream2py: stream2py
+   pchealthstream2py: stream2py
+   keyboardstream2py: stream2py
+              meshed: lined, i2
+            py2store: dol, config2py
+                wads: py2store, epythet
+                hear: py2store, hum
+               slang: py2store, atypes
+                 hum: i2, slink
+              git2py: dol, py2store
+              dagapp: meshed, i2, lined
+              allude: i2, lined, meshed
+            mongodol: dol, linkup, i2
+              peruse: slang, hum, py2http
+               slink: lined, creek, i2
+               unbox: dol, config2py, py2store
+              gurgle: creek, lined, taped, slang, hum
+               taped: creek, i2, lined, stream2py, audiostream2py
