@@ -1,4 +1,9 @@
 
+## 2024-06-20
+
+The need for this popped up again: 
+[Enable layered architectures to provide useful context-dependent error information](https://github.com/i2mint/i2/issues/45)
+
 ## 2024-06-19
 
 * [github_repo_text_aggregate](https://github.com/thorwhalen/hubcap/blob/e00e56f709ee9d8a17d3fd4d4db4fc02943cddcf/hubcap/repo_slurp.py#L142)
