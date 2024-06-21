@@ -1,4 +1,9 @@
 
+## 2024-06-21
+
+* A tool to make a text aggregate of a github repo (files, wiki, and discussions):
+[repo_text_aggregate](https://github.com/thorwhalen/hubcap/blob/f78d41beb21983670d6601c8cd561f2a756772b7/hubcap/repo_slurp.py#L433) and related.
+
 ## 2024-06-20
 
 The need for this popped up again: 
