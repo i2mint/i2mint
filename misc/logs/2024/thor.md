@@ -3,7 +3,7 @@
 
 * A tool to make a text aggregate of a github repo (files, wiki, and discussions):
 [repo_text_aggregate](https://github.com/thorwhalen/hubcap/blob/f78d41beb21983670d6601c8cd561f2a756772b7/hubcap/repo_slurp.py#L433) and related.
-
+* [lkj.wrapped_print](https://github.com/i2mint/lkj/blob/f36a940ef859fbee89fd823d7f8c5997398d4b44/lkj/loggers.py#L3): Prints a list of items ensuring the total line width does not exceed `max_width`.
 ## 2024-06-20
 
 The need for this popped up again: 
