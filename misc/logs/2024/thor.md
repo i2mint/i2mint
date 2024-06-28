@@ -1,3 +1,10 @@
+## 2024-06-28
+
+* Closed [More robust version handling: Take 2: Taking max version as "latest"](https://github.com/i2mint/isee/issues/29) issue.
+
+## 2024-06-27
+
+* Made [Make it possible to use return values in CI](https://github.com/i2mint/isee/issues/28) issue.
 
 ## 2024-06-24
 
