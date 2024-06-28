@@ -1,4 +1,8 @@
 
+## 2024-06-24
+
+* [Discussion on different implementation choices](https://github.com/i2mint/tabled/discussions/7#discussioncomment-9859012) of a `DataframeKvReader`.
+
 ## 2024-06-21
 
 * A tool to make a text aggregate of a github repo (files, wiki, and discussions):
