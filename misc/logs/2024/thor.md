@@ -31,3 +31,9 @@ The need for this popped up again:
    * doc: add module docs and commented `gen_sem`
    * refactor: separate `get_version` from gen_semver to be able to test it better:
   [see this commit](https://github.com/i2mint/isee/blob/485104d638a68029493cf1619cc1f085e37c0f43/isee/generation_utils.py#L21)
+
+## 2024-06-06
+
+* [cache_this](https://github.com/i2mint/dol/blob/9de66532acee982aac73181b1f1206bc3b83550b/dol/tools.py#L133): Transforms a method into a cached property with control over cache object and key.
+
+
