@@ -1,3 +1,8 @@
+## 2024-07-30
+
+* [Data acquisition stores](https://github.com/thorwhalen/graze/discussions/5#discussioncomment-10189819)
+* [Clean up explicit tools](https://github.com/i2mint/dol/discussions/46#discussioncomment-10189828)
+
 ## 2024-07-27
 
 * [add typing to dol.cache_this](https://github.com/i2mint/dol/blob/b6b2b3d0c7f3a23051356d4d5bbe75790820d295/dol/tools.py#L21)
