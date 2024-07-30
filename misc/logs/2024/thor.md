@@ -2,7 +2,7 @@
 
 * [Data acquisition stores](https://github.com/thorwhalen/graze/discussions/5#discussioncomment-10189819)
 * [Clean up explicit tools](https://github.com/i2mint/dol/discussions/46#discussioncomment-10189828)
-* Repaird some very annoying [config2py](https://github.com/i2mint/config2py/issues/10#issuecomment-2258592376) issue.
+* Repaird some very annoying [config2py.config_getter](https://github.com/i2mint/config2py/issues/10#issuecomment-2258592376) issue.
 
 ## 2024-07-27
 
