@@ -1,6 +1,6 @@
 ## 2024-08-08
 
-* [lkj.log_calls](https://github.com/i2mint/lkj/blob/8eb21a04f23b3a1a79f178ddc7c4abcfc3655397/lkj/loggers.py#L123): Decorator that adds logging before and after the function's call.
+* [lkj.log_calls](https://github.com/i2mint/lkj/blob/60f1c4b69b2be83996b2e8758cb557c5107051e1/lkj/loggers.py#L128): Decorator that adds logging before and after the function's call.
 
 ## 2024-08-07
 
