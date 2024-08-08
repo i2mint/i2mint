@@ -1,3 +1,7 @@
+## 2024-08-08
+
+* [lkj.log_calls](https://github.com/i2mint/lkj/blob/8eb21a04f23b3a1a79f178ddc7c4abcfc3655397/lkj/loggers.py#L123)
+
 ## 2024-08-07
 
 * [AI-enabled documentation generation ](https://github.com/i2mint/spearhead_sump/discussions/3) discussion (for Spearhead Sump project).
