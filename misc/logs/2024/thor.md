@@ -6,11 +6,13 @@ and we hadn't updated tings he pages settings of the repos
 Doing so manually repaired the problem.
 * So now, I want to write code to change the pages settings automatically.
 I added a [configure_github_pages](https://github.com/i2mint/epythet/blob/d0873d06a97cda72f4165a87d503e989fc55c210/epythet/tools/published_docs.py#L112) in `epythet` to do so.
-I get an authorization error when I try the code though.
-My token seems valid (according to [token_user_info](https://github.com/i2mint/epythet/blob/d0873d06a97cda72f4165a87d503e989fc55c210/epythet/tools/published_docs.py#L84)) though, and even has the required `admin:repo_hook` perm (see [tokens settings](https://github.com/settings/tokens))
-But it is perhaps my personal token, and only is valid for repos in `thorwhalen`. So tried on repos there...
-* Questions:
-  * Why do we get "This job was skipped" for Publish GitHub Pages in [oa](https://github.com/thorwhalen/oa): See [action run](https://github.com/thorwhalen/oa/actions/runs/10367803495). Note that 
+* See [chatGPT chat](https://chatgpt.com/share/b1eba162-f513-4f64-81f1-c90e72efe553) I had while developing.
+  * Namely, it didn't work `i2mint/lkj`, so I tried for `thorwhalen/graze` and it worked.
+  * So I'm thinking it's an authorization error (though it doesn't say so, like it does sometimes).
+  * My token seems valid (according to [token_user_info](https://github.com/i2mint/epythet/blob/d0873d06a97cda72f4165a87d503e989fc55c210/epythet/tools/published_docs.py#L84)) though, and even has the required `admin:repo_hook` perm (see [tokens settings](https://github.com/settings/tokens))
+* Further Questions:
+  * Why do we get "This job was skipped" for Publish GitHub Pages in [oa](https://github.com/thorwhalen/oa): See [action run](https://github.com/thorwhalen/oa/actions/runs/10367803495).
+  * Where's the part of CI that should populate gh-pages?
 
 ## 2024-08-08
 
