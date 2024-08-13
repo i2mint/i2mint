@@ -13,10 +13,12 @@ I added a [configure_github_pages](https://github.com/i2mint/epythet/blob/5bfecc
     * My token seems valid (according to [token_user_info](https://github.com/i2mint/epythet/blob/5bfecc4def08f8bb7ab4739b0619a708648d28b3/epythet/tools/published_docs.py#L85)) though, and even has the required `admin:repo_hook` perm (see [tokens settings](https://github.com/settings/tokens))
      * ... Also, because the `configure_github_pages` function works for `thorwhalen/graze` and `i2mint/posted`
   * Could help: [github pages API docs](https://docs.github.com/en/rest/pages/pages?apiVersion=2022-11-28#update-information-about-a-apiname-pages-site)
+* [configure_github_pages_for_repo_stubs](https://github.com/i2mint/epythet/blob/ac56909a1ffe78fa7041ce01381f0cfdfcffb432/epythet/tools/published_docs.py#L176): Configure Pages for an iterable of repo stubs, or all repos in an organization.
 * Further Questions:
   * Why do we get "This job was skipped" for Publish GitHub Pages in [oa](https://github.com/thorwhalen/oa): See [action run](https://github.com/thorwhalen/oa/actions/runs/10367803495).
   * Where's the part of CI that should populate gh-pages?
     * I ask because epythet's docs were absent, because [gh-pages was empty](https://github.com/i2mint/epythet/tree/6461d8d2ced02f3d276fe016cb524c25d4ffb889). It resolved itself automatically when I pushed to [epythet](https://github.com/i2mint/epythet/tree/gh-pages)
+ 
 
 ## 2024-08-08
 
