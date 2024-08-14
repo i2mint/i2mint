@@ -1,6 +1,7 @@
 ## 2024-08-14
 
 * [GPT for i2.signatures](https://chatgpt.com/g/g-C93Mr7Bsm-python-signatures)
+* [i2.signatures.SigComparison](https://github.com/i2mint/i2//blob/e550e753d2d65c769494d61c10033b6145be631b/i2/signatures.py#L4939)
 
 ## 2024-08-13
 
