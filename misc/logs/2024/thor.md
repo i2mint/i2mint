@@ -1,3 +1,7 @@
+## 2024-08-14
+
+* [GPT for i2.signatures](https://chatgpt.com/g/g-C93Mr7Bsm-python-signatures)
+
 ## 2024-08-13
 
 * We discovered that the docs weren't working anymore because since Oct 2023, the docs moved to the `gh-pages` branch, and folder='/' (root) of repos,
