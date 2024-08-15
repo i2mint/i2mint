@@ -1,3 +1,12 @@
+## 2024-08-15
+
+* Looked into `is_call_compatible_with` `param_comparator` default. Was None, and changed to `dflt1_is_empty_or_dflt2_is_not` if `None` in code. But I like setting the default in def directly, but when I do, some tests failed because call compatibility was also used in Sig method and `SigComparison`, with `None` default. [See commit](https://github.com/i2mint/i2//blob/22056169ad704308f189e48416e44db6a0ecc7e1/i2/signatures.py#L4983)
+  * Reflection: Here's another example of a wish for signature (in this case default) injection tools. We have 3 functions, f, g, and h, where g and h use f, but in order to allow the interface of g and h to have full control over the parametrization of `f` (here, the `param_comparator` argument), the needed parameters need to be in g and h too, along with default, annotation, docs... Not only a lot of visual noise and repetition, but also violates the one source of truth (if we change the default of `param_comparator`, we need to change it in two other places. This is where the `None` trick is useful. It allows us to have one place (the body of `f`, the single source of truth) where the default is actually set. The undesirable effect there though, is that we then don't have a signature that is as informative as it could be (need to look into the code to see what the default actually is). Further, it doesn't solve the one-source-of-truth problem with annotations and docs.
+  * Posted a stackoverflow to try to gather opinions: [How can I avoid interface repetition in Python function signatures and docstrings?](https://stackoverflow.com/questions/78874506/how-can-i-avoid-interface-repetition-in-python-function-signatures-and-docstring)
+
+For new i2mint synch meeting:
+* [ ] Look into [this test input](https://github.com/i2mint/i2//blob/6b2cd0fc82936dc29d1653959959cde1ca1fce00/i2/tests/signatures_test.py#L708) to see if the `test_call_compatibility('(a=0, /, b=0, *, c=0)', '(a, b, c)')` should actually fail or pass. It used to pass. After a few changes in `i2.signatures` it fails. Not sure why. **Note that this problem happened before the `dflt1_is_empty_or_dflt2_is_not` change mentioned above, but after some light refactoring. 
+
 ## 2024-08-14
 
 * [GPT for i2.signatures](https://chatgpt.com/g/g-C93Mr7Bsm-python-signatures)
