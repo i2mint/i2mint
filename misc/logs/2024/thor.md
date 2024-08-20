@@ -1,3 +1,11 @@
+## 2024-08-20
+
+* Repaired the tests of `is_call_compatible`. See the "Use of postprocess" section of [Notes on Aug 2024 work on signatures](https://github.com/i2mint/i2/discussions/63#discussioncomment-10394910) for a design comment. 
+
+For next i2mint synch meeting:
+* [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason.
+* [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
+
 ## 2024-08-15
 
 * [Sig.pair_with](https://github.com/i2mint/i2//blob/70b29fe7b8aea49726a4a4e66d3ae4413e4adead/i2/signatures.py#L1421), and changed `SigComparison` name to `SigPair` to open for other uses (like merge, etc.)
