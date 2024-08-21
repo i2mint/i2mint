@@ -2,6 +2,7 @@
 
 * Commit: [add exception handling to dol.Pipe](https://github.com/i2mint/dol/blob/0d917936110c79806183b2246b32e0d34c8c6cd6/dol/util.py#L545)
 * Commit: [add exception handling to i2.Pipe](https://github.com/i2mint/i2//blob/8c084844b44b33d26956b05c26959504b4188efa/i2/multi_object.py#L503)
+* Recipe: [A path getter with Pipe](https://github.com/i2mint/dol/discussions/44#discussioncomment-10406153)
 
 ## 2024-08-20
 
