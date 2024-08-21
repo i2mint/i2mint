@@ -1,3 +1,7 @@
+## 2024-08-21
+
+* Commit: [add exception handling to dol.Pipe](https://github.com/i2mint/dol/blob/8cb22419cee948e72d8549b9fb211687af88f0be/dol/util.py#L545)
+
 ## 2024-08-20
 
 * Repaired the tests of `is_call_compatible`. See the "Use of postprocess" section of [Notes on Aug 2024 work on signatures](https://github.com/i2mint/i2/discussions/63#discussioncomment-10394910) for a design comment. 
