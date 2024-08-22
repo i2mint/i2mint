@@ -2,6 +2,7 @@
 
 * Made [scraped](https://pypi.org/project/scraped) into a command tool and added more docs
 * [Responded to a reddit post](https://www.reddit.com/r/OpenAI/comments/1cencjx/comment/ljcq38u/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) about getting a pdf of openai API documentation: 
+* [dol.store_aggregate](https://github.com/i2mint/dol/blob/3272737bfa49095e92c2e074ce8404c57279dde2/dol/tools.py#L499): Create an aggregate object of a store's content.
 
 ## 2024-08-21
 
