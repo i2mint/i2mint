@@ -1,3 +1,8 @@
+## 2024-08-22
+
+* Made [scraped](https://pypi.org/project/scraped) into a command tool and added more docs
+* [Responded to a reddit post](https://www.reddit.com/r/OpenAI/comments/1cencjx/comment/ljcq38u/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) about getting a pdf of openai API documentation: 
+
 ## 2024-08-21
 
 * Commit: [add exception handling to dol.Pipe](https://github.com/i2mint/dol/blob/0d917936110c79806183b2246b32e0d34c8c6cd6/dol/util.py#L545)
