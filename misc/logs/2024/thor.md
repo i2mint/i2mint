@@ -1,3 +1,10 @@
+## 2024-08-23
+
+* [Discussion: Parameter.empty behavior in function definitions
+](https://github.com/i2mint/i2/discussions/77#discussioncomment-10428992)
+  * Wrote a [Stackoverflow: How can I get the _true_ signature of a Python function?](https://stackoverflow.com/questions/78905311/how-can-i-get-the-true-signature-of-a-python-function).
+* [Discussion: Default Source Object](https://github.com/i2mint/i2/discussions/77#discussioncomment-10429063)
+
 ## 2024-08-22
 
 * Made [scraped](https://pypi.org/project/scraped) into a command tool and added more docs
