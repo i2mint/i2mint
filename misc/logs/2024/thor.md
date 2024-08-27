@@ -1,3 +1,8 @@
+## 2024-08-27
+
+* [See failed CI](https://github.com/thorwhalen/oa/actions/runs/10579336623/job/29311525240#step:8:219): `i2` is not installed (leading to import error), though it is (and has always been) in the `setup.cfg`.
+* [i2.replace_kwargs_using](https://github.com/i2mint/i2//blob/f4e554d4f8c975ff027d986261a0e3daf8c94bac/i2/signatures.py#L4171): Decorator that replaces the variadic keyword argument of the target function using the `sig`, the signature of a source function. 
+
 ## 2024-08-23
 
 * [Discussion: Parameter.empty behavior in function definitions
