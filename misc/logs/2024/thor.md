@@ -1,6 +1,7 @@
 ## 2024-08-28
 
 * [oa Discussion: More types and models](https://github.com/thorwhalen/oa/discussions/8#discussioncomment-10476879) for openai
+* [titbit.md_toc_string](https://github.com/i2mint/titbit/blob/3b00dca9b6d0d4864b17a5ff5f436ee721bc466c/titbit/strings.py#L23)
 
 ## 2024-08-27
 
