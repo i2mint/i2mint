@@ -1,3 +1,7 @@
+## 2024-08-28
+
+* [oa Discussion: More types and models](https://github.com/thorwhalen/oa/discussions/8#discussioncomment-10476879) for openai
+
 ## 2024-08-27
 
 * [See failed CI](https://github.com/thorwhalen/oa/actions/runs/10579336623/job/29311525240#step:8:219): `i2` is not installed (leading to import error), though it is (and has always been) in the `setup.cfg`.
