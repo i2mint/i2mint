@@ -1,3 +1,8 @@
+## 2024-08-29
+
+* [json to pydantic tools](https://github.com/i2mint/ju/discussions/1#discussioncomment-10484400)
+* [lkj.truncate_dict_values](https://github.com/i2mint/lkj/blob/c542856c5baa7082d354606456a9d3fb4386fc26/lkj/dicts.py#L6)
+
 ## 2024-08-28
 
 * [oa Discussion: More types and models](https://github.com/thorwhalen/oa/discussions/8#discussioncomment-10476879) for openai
