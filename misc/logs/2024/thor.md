@@ -2,6 +2,7 @@
 
 * [json to pydantic tools](https://github.com/i2mint/ju/discussions/1#discussioncomment-10484400)
 * [lkj.truncate_dict_values](https://github.com/i2mint/lkj/blob/c542856c5baa7082d354606456a9d3fb4386fc26/lkj/dicts.py#L6)
+* [ju.pydantic_util.py](https://github.com/i2mint/ju/blob/62016b8394c60918d69de11620df51e5bd1b4201/ju/pydantic_util.py#L1), with functions: `is_valid_wrt_model`, `valid_models`, and `create_pydantic_model`
 
 ## 2024-08-28
 
