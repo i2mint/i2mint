@@ -7,6 +7,7 @@ For next i2mint synch meeting:
 
 * [ju.model_digraph](https://github.com/i2mint/ju/blob/8aefa5e1efd1959cd9f4a262f2f42187bc22ce3b/ju/viz.py#L9). See [Visualizing your models as a graph](https://github.com/i2mint/ju/discussions/4#discussioncomment-10530803)
 * [AI Q&A: Markdown hyperlinked TOC don't work on pypi](https://github.com/thorwhalen/umpyre/discussions/61#discussioncomment-10529712)
+* [field_paths_and_annotations](https://github.com/i2mint/ju/blob/1d789125b848e85f7ee959fc4746b108b93fd91e/ju/util.py#L437)
 
 ## 2024-08-29
 
