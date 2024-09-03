@@ -1,7 +1,11 @@
 For next i2mint synch meeting:
-* [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: Write github API script to create branches for urls that need it.
+* [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
+* [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
-* [ ] [See failed CI](https://github.com/thorwhalen/oa/actions/runs/10579336623/job/29311525240#step:8:219): `i2` is not installed (leading to import error), though it is (and has always been) in the `setup.cfg`. TODO: Make CI "install dependencies" fail when an error occured.
+
+## 2024-09-03
+
+* [AI Q&A: Markdown hyperlinked TOC don't work on pypi](https://github.com/thorwhalen/umpyre/discussions/61#discussioncomment-10529712)
 
 ## 2024-08-29
 
