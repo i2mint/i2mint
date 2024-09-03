@@ -1,3 +1,7 @@
+For next i2mint synch meeting:
+* [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. See "set github settings for pages" section of my "Scrap 2024" notebook for code.
+* [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
+
 ## 2024-08-29
 
 * [json to pydantic tools](https://github.com/i2mint/ju/discussions/1#discussioncomment-10484400)
@@ -37,10 +41,6 @@
 
 * Repaired the tests of `is_call_compatible`. See the "Use of postprocess" section of [Notes on Aug 2024 work on signatures](https://github.com/i2mint/i2/discussions/63#discussioncomment-10394910) for a design comment. 
 * Discussion comment: [Forwarding methods to extend mappings?](https://github.com/i2mint/dol/discussions/46#discussioncomment-10397874)
-  
-For next i2mint synch meeting:
-* [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. See "set github settings for pages" section of my "Scrap 2024" notebook for code.
-* [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 ## 2024-08-15
 
