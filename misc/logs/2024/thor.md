@@ -6,7 +6,7 @@ For next i2mint synch meeting:
 ## 2024-09-05
 
 * [ObjectClassifier](https://github.com/i2mint/i2//blob/38ccdf043d1a1aa5091a321144100aa579aa0fa1/i2/itypes.py#L314): A general-purpose classifier for objects based on a set of verifying functions.
-
+* [heatmap_sns](https://github.com/i2mint/oplot/blob/79dcf8317420ede96b09968a8b5f197c7d2958e0/oplot/matrix.py#L275)
 
 ## 2024-09-03
 
