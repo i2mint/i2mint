@@ -5,15 +5,15 @@ For next i2mint synch meeting:
 
 ## 2024-09-05
 
-* [ObjectClassifier](https://github.com/i2mint/i2//blob/38ccdf043d1a1aa5091a321144100aa579aa0fa1/i2/itypes.py#L314): A general-purpose classifier for objects based on a set of verifying functions.
-* [heatmap_sns](https://github.com/i2mint/oplot/blob/79dcf8317420ede96b09968a8b5f197c7d2958e0/oplot/matrix.py#L275)
+* [i2.itypes.ObjectClassifier](https://github.com/i2mint/i2//blob/38ccdf043d1a1aa5091a321144100aa579aa0fa1/i2/itypes.py#L314): A general-purpose classifier for objects based on a set of verifying functions.
+* [oplot.heatmap_sns](https://github.com/i2mint/oplot/blob/79dcf8317420ede96b09968a8b5f197c7d2958e0/oplot/matrix.py#L275)
 
 ## 2024-09-03
 
 * [ju.model_digraph](https://github.com/i2mint/ju/blob/8aefa5e1efd1959cd9f4a262f2f42187bc22ce3b/ju/viz.py#L9). See [Visualizing your models as a graph](https://github.com/i2mint/ju/discussions/4#discussioncomment-10530803)
 * [AI Q&A: Markdown hyperlinked TOC don't work on pypi](https://github.com/thorwhalen/umpyre/discussions/61#discussioncomment-10529712)
 * [field_paths_and_annotations](https://github.com/i2mint/ju/blob/1d789125b848e85f7ee959fc4746b108b93fd91e/ju/util.py#L437)
-* [PathMappedData](https://github.com/i2mint/dol/blob/0b41260fa07bcb154217d45678ae0cfccba6c7fb/dol/paths.py#L376)
+* [dol.paths.PathMappedData](https://github.com/i2mint/dol/blob/0b41260fa07bcb154217d45678ae0cfccba6c7fb/dol/paths.py#L376)
 
 ## 2024-08-29
 
