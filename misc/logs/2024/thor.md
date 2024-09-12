@@ -3,6 +3,11 @@ For next i2mint synch meeting:
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2024-09-12
+
+* [match_aliases](https://github.com/thorwhalen/imbed/blob/e2d0d3318fcd3f5ee19f3257f990a7450e794d16/imbed/util.py#L467): Matches the keys of aliases to the given fields, using the values of aliases as the matching logic (could be a list of possible fields, a regular expression, or a custom matching function.).
+
 ## 2024-09-10
 
 * [ju.pydantic_util.ModelExtractor](https://github.com/i2mint/ju/blob/d7c54f9522a9a3a5f02636606e311c8b7be1fc93/ju/pydantic_util.py#L577): Extracts key paths and corresponding values from data based on matching Pydantic models.
