@@ -7,6 +7,7 @@ For next i2mint synch meeting:
 ## 2024-09-19
 
 * [lru_cache_method](https://github.com/i2mint/dol/blob/6365940b2bf28ce49b84f99b78915e2a5a2c2fae/dol/tools.py#L390): A decorator to cache the result of a method, ignoring the first argument
+* [dol.cache_this(..., pre_cache)](https://github.com/i2mint/dol/blob/6ee10e80cf3672bc429eac8cc4fc76b8b7c02404/dol/tools.py#L182): pre_cache argument in cache_this
 
 ## 2024-09-18
 
