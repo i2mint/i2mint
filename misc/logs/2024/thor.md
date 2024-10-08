@@ -4,6 +4,9 @@ For next i2mint synch meeting:
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-10-08
+
+* Extended urls that can be downloaded by [graze.util.google_drive_download_url]([google_drive_download_url](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/util.py#L317)) and made ensurance of folders in paths more robust (but locally -- there is a todo to centralize, using the general [url_to_file_download](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/base.py#L267) function.
 
 ## 2024-09-21
 * [tabled.auto_decode_bytes](https://github.com/i2mint/tabled/blob/34307900606f6cbf8aab34e93c126d084b9993c8/tabled/util.py#L192): Decode a byte sequence into a string, trying charset_normalizer gueses if fails.
