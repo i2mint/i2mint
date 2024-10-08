@@ -6,7 +6,7 @@ For next i2mint synch meeting:
 
 ## 2024-10-08
 
-* Extended urls that can be downloaded by [graze.util.google_drive_download_url]([google_drive_download_url](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/util.py#L317)) and made ensurance of folders in paths more robust (but locally -- there is a todo to centralize, using the general [url_to_file_download](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/base.py#L267) function.
+* Extended urls that can be downloaded by [graze.util.google_drive_download_url](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/util.py#L317) and made ensurance of folders in paths more robust (but locally -- there is a todo to centralize, using the general [url_to_file_download](https://github.com/thorwhalen/graze/blob/4316e2525de3555b41d7a86a907e4123eb32ee69/graze/base.py#L267) function.
 
 ## 2024-09-21
 * [tabled.auto_decode_bytes](https://github.com/i2mint/tabled/blob/34307900606f6cbf8aab34e93c126d084b9993c8/tabled/util.py#L192): Decode a byte sequence into a string, trying charset_normalizer gueses if fails.
