@@ -9,6 +9,8 @@ For next i2mint synch meeting:
 * New package. `ug`, to accumulate google API tools. Namely, we have:
    * [search_maps](https://github.com/thorwhalen/ug/blob/ed433199b97339d8f1f53641ec9355814a7a138e/ug/maps.py#L93): Tool to get map search results
    * [acquire_maps_search_results_from_different_locations](https://github.com/thorwhalen/ug/blob/ed433199b97339d8f1f53641ec9355814a7a138e/ug/maps.py#L34) (to get and store multiple map search results)
+* [subfolder_stores](https://github.com/i2mint/dol/blob/4b82d365f0f6b82d161178d26c651531d08c0030/dol/filesys.py#L696): Create a store of subfolders of a given folder, where the keys are the subfolder paths
+  * In the process of testing `subfolder_stores`, wrote [populate_folder](https://github.com/i2mint/dol/blob/4b82d365f0f6b82d161178d26c651531d08c0030/dol/tests/test_filesys.py#L69), but should be generalized.
   
 ## 2024-10-08
 
