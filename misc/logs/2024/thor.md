@@ -5,7 +5,10 @@ For next i2mint synch meeting:
 
 ## 2024-10-09
 
-* [dol_cookbook.pipes.get_rows_iterator]: Get an iterator over the rows of a DataFrame
+* [dol_cookbook.pipes.get_rows_iterator](https://github.com/i2mint/dol_cookbook/blob/abfa877c764dfa4664a7b2f2f81b902cbd5a2c9a/dol_cookbook/pipes.py#L13): Get an iterator over the rows of a DataFrame
+* New package. `ug`, to accumulate google API tools. Namely, we have:
+   * [search_maps](https://github.com/thorwhalen/ug/blob/ed433199b97339d8f1f53641ec9355814a7a138e/ug/maps.py#L93): Tool to get map search results
+   * [acquire_maps_search_results_from_different_locations](https://github.com/thorwhalen/ug/blob/ed433199b97339d8f1f53641ec9355814a7a138e/ug/maps.py#L34) (to get and store multiple map search results)
   
 ## 2024-10-08
 
