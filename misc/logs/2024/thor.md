@@ -8,7 +8,8 @@ For next i2mint synch meeting:
 
 * [oa.prompt_json_function](https://github.com/thorwhalen/oa/blob/a9724f401eae71fc6aab7fb87cc0b64b2713804c/oa/tools.py#L444) more robust, easier to use and control.
 * [sung](https://github.com/thorwhalen/sung): A start of a spotify dol
-* In section "Parsing out information" of [oa - Various use cases.ipynb](https://github.com/thorwhalen/oa/blob/a76a180e6e70652cd5b52d4cda6b65fdb27b714c/misc/oa%20-%20Various%20use%20cases.ipynb), an example of how to make a parser (data extractor) with `oa.prompt_json_function`. 
+* In section "Parsing out information" of [oa - Various use cases.ipynb](https://github.com/thorwhalen/oa/blob/a76a180e6e70652cd5b52d4cda6b65fdb27b714c/misc/oa%20-%20Various%20use%20cases.ipynb), an example of how to make a parser (data extractor) with `oa.prompt_json_function`.
+* [In dol, patch fix](https://github.com/i2mint/dol/blob/57b5d14ce32a7650d30cc437faedbfc6b513a326/dol/base.py#L259) when @cache_keys (possibly other store wrappers too) are applied to classes with classmethod.
 
 ## 2024-10-09
 
