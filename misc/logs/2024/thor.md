@@ -4,6 +4,10 @@ For next i2mint synch meeting:
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-10-28
+
+* [from.replace_image_links](https://github.com/thorwhalen/hubcap/blob/9a253b26f57c80659e1a0ad6d182f2aa1042a92c/hubcap/util.py#L78): Replace relative image paths in a markdown string with absolute URLs for PyPI.
+ 
 ## 2024-10-27
 
 * [oa.prompt_json_function](https://github.com/thorwhalen/oa/blob/a9724f401eae71fc6aab7fb87cc0b64b2713804c/oa/tools.py#L444) more robust, easier to use and control.
