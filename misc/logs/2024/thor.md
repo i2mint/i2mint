@@ -7,7 +7,7 @@ For next i2mint synch meeting:
 ## 2024-10-28
 
 * [from.replace_image_links](https://github.com/thorwhalen/hubcap/blob/9a253b26f57c80659e1a0ad6d182f2aa1042a92c/hubcap/util.py#L78): Replace relative image paths in a markdown string with absolute URLs for PyPI.
-* [Get a list of unique relative file paths](https://github.com/i2mint/lkj/discussions/2#discussioncomment-11075347)
+* [lkj recipe: Get a list of unique relative file paths](https://github.com/i2mint/lkj/discussions/2#discussioncomment-11075347)
 
 ## 2024-10-27
 
