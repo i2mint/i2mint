@@ -6,6 +6,7 @@ For next i2mint synch meeting:
 
 ## 2024-11-04
 
+* [oplot.density_distribution](https://github.com/i2mint/oplot/blob/677868cc8bbd9cd7c01c99949f1fcc4a8b6c0980/oplot/plot_data_set.py#L53): Plots the density distribution of different data sets (arrays).
 * [lkj.enable_sourcing_from_file](https://github.com/i2mint/lkj/blob/984944889e5d99f0186dda0a3e04cb95bd949e19/lkj/filesys.py#L10): Decorator for functions enables the decorated function to source from a file.
 * [hubcap.replace_relative_urls](https://github.com/thorwhalen/hubcap/blob/24039e46c298b6ccf4952f083946ae6135acb734/hubcap/util.py#L91):     Replace relative URLs in a markdown string with absolute URLs based on the root_url.
 
