@@ -4,9 +4,15 @@ For next i2mint synch meeting:
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-04
+
+* [lkj.enable_sourcing_from_file](https://github.com/i2mint/lkj/blob/984944889e5d99f0186dda0a3e04cb95bd949e19/lkj/filesys.py#L10): Decorator for functions enables the decorated function to source from a file.
+* [hubcap.replace_relative_urls](https://github.com/thorwhalen/hubcap/blob/24039e46c298b6ccf4952f083946ae6135acb734/hubcap/util.py#L91):     Replace relative URLs in a markdown string with absolute URLs based on the root_url.
+
+
 ## 2024-10-28
 
-* [from.replace_image_links](https://github.com/thorwhalen/hubcap/blob/964ee189c5d5c7acaac4ea86adf9a85d81c21650/hubcap/util.py#L78): Replace relative image paths in a markdown string with absolute URLs for PyPI.
+* [from.replace_image_links](https://github.com/thorwhalen/hubcap/blob/964ee189c5d5c7acaac4ea86adf9a85d81c21650/hubcap/util.py#L78): Replace relative image paths in a markdown string with absolute URLs for PyPI. --> **NOTE: Replaced by [hubcap.replace_relative_urls](https://github.com/thorwhalen/hubcap/blob/24039e46c298b6ccf4952f083946ae6135acb734/hubcap/util.py#L91)**
 * [lkj recipe: Get a list of unique relative file paths](https://github.com/i2mint/lkj/discussions/2#discussioncomment-11075347)
 
 ## 2024-10-27
