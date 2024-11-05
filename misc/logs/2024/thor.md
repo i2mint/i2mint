@@ -4,6 +4,17 @@ For next i2mint synch meeting:
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-05
+
+* `dol.KeyTemplate` applications:
+  * [parse_github_url](https://github.com/thorwhalen/hubcap/blob/a1d4e1be3ee9dffd09a70b6ddb47a0736c1eedc9/hubcap/util.py#L791): parse a GitHub URL and returns a dict of its components
+  * [generate_github_url](https://github.com/thorwhalen/hubcap/blob/a1d4e1be3ee9dffd09a70b6ddb47a0736c1eedc9/hubcap/util.py#L836): generate a GitHub URL from the provided components dict.
+  * [transform_github_url](https://github.com/thorwhalen/hubcap/blob/a1d4e1be3ee9dffd09a70b6ddb47a0736c1eedc9/hubcap/util.py#L955): transform a GitHub URL to another type, updating components as needed
+* [A Pipe and operations exercise](https://github.com/i2mint/dol/discussions/44#discussioncomment-11153514)
+* [partial(partial,partial): Discussion comment](https://github.com/i2mint/dol/discussions/44#discussioncomment-11153693)
+* [partial(partial,partial): Medium article](https://medium.com/@thorwhalen1/partial-partial-partial-f90396901362)
+
+
 ## 2024-11-04
 
 * [oplot.density_distribution](https://github.com/i2mint/oplot/blob/677868cc8bbd9cd7c01c99949f1fcc4a8b6c0980/oplot/plot_data_set.py#L53): Plots the density distribution of different data sets (arrays).
