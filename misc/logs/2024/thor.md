@@ -1,5 +1,6 @@
 For next i2mint synch meeting:
 
+* [ ] [see 2024-11-06 CI problem](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-11-06)
 * [ ] [not sure I agree with name: map_arguments_from_variadics](https://github.com/i2mint/i2//blob/9a55bc671586f38e64bed97fb383d253f4db4494/i2/signatures.py#L2915)
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into why the `configure_github_pages` doesn't work on some repos (two reasons: missing branch (might be that the CI is still the old one) and 10 of them (`kafkaposted`, `redisposted`, etc.) for some other reason. Missing branch (e.g. [creek](https://github.com/i2mint/creek)). Othe (e.g. [kafkaposted](https://github.com/i2mint/kafkaposted). See "set github settings for pages" section of my "Scrap 2024" notebook for code. --> TODO: (1) Write github API script to create branches for urls that need it. (2) include this in CI?
