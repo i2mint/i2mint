@@ -1,5 +1,6 @@
 For next i2mint synch meeting:
 
+* [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
 * [ ] [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. See with VF what used to be the deps. 
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
