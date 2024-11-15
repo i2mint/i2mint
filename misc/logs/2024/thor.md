@@ -38,7 +38,7 @@ For next i2mint synch meeting:
 
 ## 2024-10-28
 
-* `hubcap.replace_image_links`, replaced by [hubcap.https://github.com/thorwhalen/hubcap/blob/88b071f97f66531e1c1ba50b2cfb15f557dffb1a/hubcap/util.py#L210] (the old one is [hubcap.replace_image_links](https://github.com/thorwhalen/hubcap/blob/964ee189c5d5c7acaac4ea86adf9a85d81c21650/hubcap/util.py#L78)): Replace relative image paths in a markdown string with absolute URLs for PyPI.(https://github.com/thorwhalen/hubcap/blob/24039e46c298b6ccf4952f083946ae6135acb734/hubcap/util.py#L91)**
+* `hubcap.replace_image_links`, replaced by [hubcap.replace_relative_urls](https://github.com/thorwhalen/hubcap/blob/88b071f97f66531e1c1ba50b2cfb15f557dffb1a/hubcap/util.py#L210] (the old one is [hubcap.replace_image_links](https://github.com/thorwhalen/hubcap/blob/964ee189c5d5c7acaac4ea86adf9a85d81c21650/hubcap/util.py#L78)): Replace relative image paths in a markdown string with absolute URLs for PyPI.(https://github.com/thorwhalen/hubcap/blob/24039e46c298b6ccf4952f083946ae6135acb734/hubcap/util.py#L91)**
 * [lkj recipe: Get a list of unique relative file paths](https://github.com/i2mint/lkj/discussions/2#discussioncomment-11075347)
 
 ## 2024-10-27
