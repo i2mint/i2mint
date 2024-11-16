@@ -5,6 +5,16 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2024-11-16
+
+* Did more on [sung](https://github.com/thorwhalen/sung), a dol-like interface to Spotify. Refactored class relationships and added audio analysis and features methods. Made a nice [demo notebook](https://github.com/thorwhalen/sung/blob/main/misc/sung_demo.ipynb), contents of which is included in [readme]([https://github.com/thorwhalen/sung](https://github.com/thorwhalen/sung/blob/main/README.md)).
+* Added method [Sig.inject_into_keyword_variadic](https://github.com/i2mint/i2//blob/1d5607266ee6a644b3fac7ad9db77884f20d465d/i2/signatures.py#L3173)) for more convenient access and use of `replace_kwargs_using` function. 
+
+## 2024-11-15
+
+* Use my [sung](https://github.com/thorwhalen/sung) package, a dol-like interface to Spotify, to do some [playlist_analysis](https://github.com/thorwhalen/sung/blob/main/misc/playlist_analysis.ipynb), which is also included in [readme]([https://github.com/thorwhalen/sung](https://github.com/thorwhalen/sung/blob/main/README.md))
+
 ## 2024-11-12
 
 * In `epythet.published_docs`, some git tools: [check_token_scopes, ensure_branch, repo_data, commit_data, default_branch_and_commit_sha](https://github.com/i2mint/epythet/blob/cc32ebe872d0742aaf151bf8978dd5594f3ef30e/epythet/tools/published_docs.py#L245). Should really be moved to hubcap, but put as todo only.
