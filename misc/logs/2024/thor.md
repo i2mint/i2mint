@@ -25,7 +25,7 @@ For next i2mint synch meeting:
 * In `epythet.published_docs`, some git tools: [check_token_scopes, ensure_branch, repo_data, commit_data, default_branch_and_commit_sha](https://github.com/i2mint/epythet/blob/cc32ebe872d0742aaf151bf8978dd5594f3ef30e/epythet/tools/published_docs.py#L245). Should really be moved to hubcap, but put as todo only.
 * [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. 
 * Automatically created branch for all i2mint repos that are missing docs. But my [epythet.tools.published_docs:configure_github_pages](https://github.com/i2mint/epythet/blob/cc32ebe872d0742aaf151bf8978dd5594f3ef30e/epythet/tools/published_docs.py#L168) is not working. So I manually edited the pages settings to set the gh-pages as the source branch, and edited the readme to trigger CI and doc gen. The only ones left (besides `s3dol` which has CI problem) are those that don't really need docs, so I didn't process: `content, dol_cookbook, examples, i2i_scrap, py2misc, spearhead_sump`.
-  * See Documentation pages section of [projects_inspection_and_ci notebook](https://github.com/i2mint/i2mint/blob/main/misc/notebooks/projects_inspection_and_ci.ipynb) for github tools for this
+  * See _"Documentation pages"_ section of [projects_inspection_and_ci notebook](https://github.com/i2mint/i2mint/blob/main/misc/notebooks/projects_inspection_and_ci.ipynb) for github tools for this
 
 ## 2024-11-06
 
