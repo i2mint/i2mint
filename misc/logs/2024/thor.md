@@ -6,6 +6,11 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2024-11-18
+
+* [hubcap.notebook_to_markdown](https://github.com/thorwhalen/hubcap/blob/6edec9f953d54f18c456b94e66ba776929c5a729/hubcap/tools.py#L98): Convert a Jupyter notebook to Markdown and optionally post-process the output.
+
+
 ## 2024-11-16
 
 * Did more on [sung](https://github.com/thorwhalen/sung), a dol-like interface to Spotify. Refactored class relationships and added audio analysis and features methods. Made a nice [demo notebook](https://github.com/thorwhalen/sung/blob/main/misc/sung_demo.ipynb), contents of which is included in [readme]([https://github.com/thorwhalen/sung](https://github.com/thorwhalen/sung/blob/main/README.md)).
