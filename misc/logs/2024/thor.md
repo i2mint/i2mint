@@ -1,5 +1,6 @@
 For next i2mint synch meeting:
 
+* [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch.
 * [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
 * [ ] Still not sure what should be done to set up docs in CI. Just create the gh-pages branch (from the main) and notify settings? Check out [sung actions](https://github.com/thorwhalen/sung/actions)
 * [ ] [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. See with VF what used to be the deps. 
@@ -10,7 +11,7 @@ For next i2mint synch meeting:
 ## 2024-11-19
 
 * Chat with VF. Looked at docs publishing problem. [Looked at this packages](https://github.com/peaceiris/actions-gh-pages) which epythet uses.
-
+* Wrote some [troubleshooting github token problems](https://github.com/i2mint/isee/blob/master/README.md#github-token-problems-eg-tagging) in `isee` readme, to reflect the problem I had.
 
 ## 2024-11-18
 
