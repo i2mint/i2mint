@@ -7,6 +7,11 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2024-11-19
+
+* Chat with VF. Looked at docs publishing problem. [Looked at this packages](https://github.com/peaceiris/actions-gh-pages) which epythet uses.
+
+
 ## 2024-11-18
 
 * [hubcap.notebook_to_markdown](https://github.com/thorwhalen/hubcap/blob/6edec9f953d54f18c456b94e66ba776929c5a729/hubcap/tools.py#L98): Convert a Jupyter notebook to Markdown and optionally post-process the output.
