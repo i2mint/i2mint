@@ -12,6 +12,7 @@ For next i2mint synch meeting:
 
 * Chat with VF. Looked at docs publishing problem. [Looked at this packages](https://github.com/peaceiris/actions-gh-pages) which epythet uses.
 * Wrote some [troubleshooting github token problems](https://github.com/i2mint/isee/blob/master/README.md#github-token-problems-eg-tagging) in `isee` readme, to reflect the problem I had.
+* [ju.model_field_descriptions](https://github.com/i2mint/ju/blob/699b09e3691634fc8f4aab69fed272e03d3bd407/ju/pydantic_util.py#L47):     Extracts a dictionary of field paths and their descriptions from a Pydantic model, including nested models.
 
 ## 2024-11-18
 
