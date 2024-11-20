@@ -7,6 +7,9 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-20
+
+* [This table getter](https://github.com/i2mint/tabled/blob/0bb32dcc17e53cb6fbc0ae1d7bc602737177aae3/tabled/base.py#L194) is already set up declaratively for the "resolve to dataframe" concern, via the `ext_mapping`, but the io object resolution is parametrized through a `resolve_to_io` function, with a default that is itself a function whose parameters haven't been factored out to be declarative. In this discussion, we propose that: [A declarative form (routing) for the io reader concern](https://github.com/i2mint/tabled/discussions/8)
 
 ## 2024-11-19
 
