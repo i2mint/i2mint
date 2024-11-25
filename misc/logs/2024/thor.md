@@ -11,7 +11,8 @@ For next i2mint synch meeting:
 
 * [dol.read_from_bytes](https://github.com/i2mint/dol/blob/ac387ee5cf5d0703be0e24695a6c4ed660106a68/dol/util.py#L1790): Takes a file reading function that expects a file-like object, and returns a function that instead of reading from a file, reads from bytes. This is the read version of the `written_bytes` function of the same module.
 * [lkj.camel_to_snake & lkj.snake_to_camel](https://github.com/i2mint/lkj/blob/4fae7b860b63d69025d723feb5878946ada5bd6e/lkj/strings.py#L9)
-
+* [Discussion: lkj: Grouping by key and finding duplicates
+](https://github.com/i2mint/lkj/discussions/3#discussioncomment-11373086)
 
 ## 2024-11-22
 
