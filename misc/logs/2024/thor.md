@@ -7,6 +7,12 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-25
+
+* [dol.read_from_bytes](https://github.com/i2mint/dol/blob/ac387ee5cf5d0703be0e24695a6c4ed660106a68/dol/util.py#L1790): Takes a file reading function that expects a file-like object, and returns a function that instead of reading from a file, reads from bytes. This is the read version of the `written_bytes` function of the same module.
+* [lkj.camel_to_snake & lkj.snake_to_camel](https://github.com/i2mint/lkj/blob/4fae7b860b63d69025d723feb5878946ada5bd6e/lkj/strings.py#L9)
+
+
 ## 2024-11-22
 
 * Fully functional and tested and demoed [tabled.DfFiles](https://github.com/i2mint/tabled/blob/c624b1074f4525c582ac404454e8b21f0fb5a1a6/tabled/base.py#L116)
