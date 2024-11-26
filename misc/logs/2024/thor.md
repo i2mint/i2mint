@@ -7,6 +7,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-26
+
+* [redirect_getattr_to_getitem](https://github.com/i2mint/dol/blob/4fad8c91578c3e62186c25d911ead1fe90b86cf0/dol/trans.py#L3350): A mapping decorator that redirects attribute access to __getitem__
+* [pdfdol.concat_pdfs](https://github.com/i2mint/pdfdol/blob/9ae8f64b9fedb532f964958e4964262f86712ab0/pdfdol/util.py#L258) now supports images
+  
 ## 2024-11-25
 
 * [dol.read_from_bytes](https://github.com/i2mint/dol/blob/ac387ee5cf5d0703be0e24695a6c4ed660106a68/dol/util.py#L1790): Takes a file reading function that expects a file-like object, and returns a function that instead of reading from a file, reads from bytes. This is the read version of the `written_bytes` function of the same module.
