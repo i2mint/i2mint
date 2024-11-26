@@ -11,6 +11,7 @@ For next i2mint synch meeting:
 
 * [redirect_getattr_to_getitem](https://github.com/i2mint/dol/blob/4fad8c91578c3e62186c25d911ead1fe90b86cf0/dol/trans.py#L3350): A mapping decorator that redirects attribute access to __getitem__
 * [pdfdol.concat_pdfs](https://github.com/i2mint/pdfdol/blob/9ae8f64b9fedb532f964958e4964262f86712ab0/pdfdol/util.py#L258) now supports images
+* [astate.remove_docstrings](https://github.com/thorwhalen/astate/blob/e7a1e370987949d02cf2740a9fb8101cc5570954/astate/misc.py#L6): Remove docstrings from the given Python code.
   
 ## 2024-11-25
 
