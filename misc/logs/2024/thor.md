@@ -7,6 +7,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2024-11-27
+
+* [dataframe_diffs](https://github.com/i2mint/tabled/blob/bf38cdac2fcec6614f640c59e83ca15afede60f4/tabled/compare_tables.py#L111): Compare the diff of dataframes using specified diff comparison functions.
+
 ## 2024-11-26
 
 * [redirect_getattr_to_getitem](https://github.com/i2mint/dol/blob/4fad8c91578c3e62186c25d911ead1fe90b86cf0/dol/trans.py#L3350): A mapping decorator that redirects attribute access to __getitem__
