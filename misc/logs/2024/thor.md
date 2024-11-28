@@ -7,6 +7,9 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-11-28
+
+* [lkj index_of and get_by_value](https://github.com/i2mint/lkj/blob/ae7596a6ba19b7346cfc0e7598dff807f308423d/lkj/iterables.py#L6): iterable utility functions for index lookup and dictionary retrieval
 
 ## 2024-11-27
 
