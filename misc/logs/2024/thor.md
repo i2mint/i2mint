@@ -7,6 +7,15 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2024-11-30
+
+* [lkj: fields_of_string_format and fields_of_string_formats](https://github.com/i2mint/lkj/blob/b61b620d08100edb70a8a9e5d125f962ba6e7f21/lkj/strings.py#L8)
+  
+## 2024-11-29
+
+* [guise](https://github.com/thorwhalen/guise): dol-based. Make a store of word clouds from a store of texts. Existed, but did work on it, and demo notebooks (namely, the [harris vs trump debate one](https://github.com/thorwhalen/guise/blob/master/misc/harris-trump-debate.ipynb)
+  
 ## 2024-11-28
 
 * [lkj index_of and get_by_value](https://github.com/i2mint/lkj/blob/ae7596a6ba19b7346cfc0e7598dff807f308423d/lkj/iterables.py#L6): iterable utility functions for index lookup and dictionary retrieval
