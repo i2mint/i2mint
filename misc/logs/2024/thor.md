@@ -8,6 +8,10 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2024-12-03
+
+* [isee Issue: Make CI Configuration Branch-Agnostic and Reusable](https://github.com/i2mint/isee/issues/31)
+
 ## 2024-11-30
 
 * [lkj: fields_of_string_format and fields_of_string_formats](https://github.com/i2mint/lkj/blob/b61b620d08100edb70a8a9e5d125f962ba6e7f21/lkj/strings.py#L8)
