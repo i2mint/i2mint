@@ -7,6 +7,9 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2024-12-06
+
+* [lkj.compare_sets](https://github.com/i2mint/lkj/blob/80dc67e656767c0fd0570753a10a82711a8215a4/lkj/iterables.py#L12): Compares two iterables, returning (common, left_only, right_only) namedtuple.
 
 ## 2024-12-03
 
