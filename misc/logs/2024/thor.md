@@ -10,6 +10,7 @@ For next i2mint synch meeting:
 ## 2024-12-06
 
 * [lkj.compare_sets](https://github.com/i2mint/lkj/blob/80dc67e656767c0fd0570753a10a82711a8215a4/lkj/iterables.py#L12): Compares two iterables, returning (common, left_only, right_only) namedtuple.
+* [dol.leaf_paths](https://github.com/i2mint/dol/blob/8ea5e7859d71332c728ce81d5fb161e5667e08f4/dol/paths.py#L138): Get a dictionary of leaf paths of a nested dictionary.
 
 ## 2024-12-03
 
