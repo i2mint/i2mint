@@ -11,7 +11,7 @@ For next i2mint synch meeting:
 
 * [lkj.compare_sets](https://github.com/i2mint/lkj/blob/80dc67e656767c0fd0570753a10a82711a8215a4/lkj/iterables.py#L12): Compares two iterables, returning (common, left_only, right_only) namedtuple.
 * [dol.leaf_paths](https://github.com/i2mint/dol/blob/8ea5e7859d71332c728ce81d5fb161e5667e08f4/dol/paths.py#L138): Get a dictionary of leaf paths of a nested dictionary.
-
+* [lkj.inclusive_subdict and lkj.exclusive_subdict](https://github.com/i2mint/lkj/blob/25554c1c1e8eb29942c664aa05f8340ff1be7fb5/lkj/dicts.py#L12) (one-liners copied from `dol.sources` and documented and doc tested)
 ## 2024-12-03
 
 * [isee Issue: Make CI Configuration Branch-Agnostic and Reusable](https://github.com/i2mint/isee/issues/31)
