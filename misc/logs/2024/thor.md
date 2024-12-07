@@ -7,6 +7,14 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2024-12-07
+
+* In `lkj`: [indent_lines and most_common_indent](https://github.com/i2mint/lkj/blob/ecdea829deb3f21697272c45151b2a89ee28101c/lkj/strings.py#L6)
+* Better [i2.params_to_docstring](https://github.com/i2mint/i2//blob/edd67bc1936f679984268e788df08119b0b4e4cf/i2/doc_mint.py#L117)
+* [i2.inject_docstring_content](https://github.com/i2mint/i2//blob/edd67bc1936f679984268e788df08119b0b4e4cf/i2/doc_mint.py#L42): add functions for string indentation and docstring content injection
+
+  
 ## 2024-12-06
 
 * [lkj.compare_sets](https://github.com/i2mint/lkj/blob/80dc67e656767c0fd0570753a10a82711a8215a4/lkj/iterables.py#L12): Compares two iterables, returning (common, left_only, right_only) namedtuple.
