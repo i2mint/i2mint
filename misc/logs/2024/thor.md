@@ -1,5 +1,6 @@
 For next i2mint synch meeting:
 
+* [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
 * [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch.
 * [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
 * [x] Still not sure what should be done to set up docs in CI. Just create the gh-pages branch (from the main) and notify settings? Check out [sung actions](https://github.com/thorwhalen/sung/actions). There's also the workflow permissions to check out. See [isee troubleshooting](https://github.com/i2mint/isee?tab=readme-ov-file#github-token-problems-eg-tagging)
