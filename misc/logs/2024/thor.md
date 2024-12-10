@@ -12,6 +12,9 @@ For next i2mint synch meeting:
 
 * New isee action: [isee/actions/ci-diagnosis/action.yml](https://github.com/i2mint/isee/blob/9c64aeec9d20bee0ce73cc9c6c494edc9608cd3a/actions/ci-diagnosis/action.yml#L1). This prints the environment variables mentioned in https://graphite.dev/guides/github-actions-variables
 
+<img width="510" alt="image" src="https://github.com/user-attachments/assets/a7d448ca-46f5-4ba5-8142-fd1f9118f64e">
+
+
 ## 2024-12-07
 
 * In `lkj`: [indent_lines and most_common_indent](https://github.com/i2mint/lkj/blob/ecdea829deb3f21697272c45151b2a89ee28101c/lkj/strings.py#L6)
