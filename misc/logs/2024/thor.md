@@ -11,7 +11,7 @@ For next i2mint synch meeting:
 
 ## 2024-12-10
 
-* Checked out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee test workflow](https://github.com/i2mint/isee/blob/master/.github/workflows/test_ci_stuff.yml) (see there how I made a workflow that I can run "manually") instead of being triggered.
+* Checked out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee test workflow](https://github.com/i2mint/isee/blob/master/.github/workflows/test_ci_stuff.yml) (see there how I made a workflow that I can run "manually") instead of being triggered. The test fails. Can't get the default branch.
 * New isee action: [isee/actions/ci-diagnosis/action.yml](https://github.com/i2mint/isee/blob/9c64aeec9d20bee0ce73cc9c6c494edc9608cd3a/actions/ci-diagnosis/action.yml#L1). This prints the environment variables mentioned in https://graphite.dev/guides/github-actions-variables
 
 <img width="510" alt="image" src="https://github.com/user-attachments/assets/a7d448ca-46f5-4ba5-8142-fd1f9118f64e">
