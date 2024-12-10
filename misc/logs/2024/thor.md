@@ -14,6 +14,19 @@ For next i2mint synch meeting:
 
 <img width="510" alt="image" src="https://github.com/user-attachments/assets/a7d448ca-46f5-4ba5-8142-fd1f9118f64e">
 
+Tried to this problem:
+
+![image](https://github.com/user-attachments/assets/13c1d003-6a3e-4c04-82e3-16a7d7472dda)
+
+with copilot (VsCode "Fix with Copilot"), using GPT-4, Claude (sonnet), o1-mini, and finally o1-preview.
+The first three failed, after several tries. Then o1-preview succeeded in one try, suggesting:
+
+```
+if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+```
+
+The second (Publish) error in CI syntax was also repaired, but this took two steps of o1-preview. 
+
 
 ## 2024-12-07
 
