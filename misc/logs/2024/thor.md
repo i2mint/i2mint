@@ -1,7 +1,7 @@
 For next i2mint synch meeting:
 
 * [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
-* [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch. --> Check out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch)
+* [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch. --> Check out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee]().
 * [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
 * [x] Still not sure what should be done to set up docs in CI. Just create the gh-pages branch (from the main) and notify settings? Check out [sung actions](https://github.com/thorwhalen/sung/actions). There's also the workflow permissions to check out. See [isee troubleshooting](https://github.com/i2mint/isee?tab=readme-ov-file#github-token-problems-eg-tagging)
 * [x] [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. See with VF what used to be the deps. 
@@ -11,6 +11,7 @@ For next i2mint synch meeting:
 
 ## 2024-12-10
 
+* Checked out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee test workflow](https://github.com/i2mint/isee/blob/master/.github/workflows/test_ci_stuff.yml) (see there how I made a workflow that I can run "manually") instead of being triggered.
 * New isee action: [isee/actions/ci-diagnosis/action.yml](https://github.com/i2mint/isee/blob/9c64aeec9d20bee0ce73cc9c6c494edc9608cd3a/actions/ci-diagnosis/action.yml#L1). This prints the environment variables mentioned in https://graphite.dev/guides/github-actions-variables
 
 <img width="510" alt="image" src="https://github.com/user-attachments/assets/a7d448ca-46f5-4ba5-8142-fd1f9118f64e">
