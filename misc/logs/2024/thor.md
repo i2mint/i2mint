@@ -3,7 +3,7 @@ For next i2mint synch meeting:
 * [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch.
 * [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
 * [x] Still not sure what should be done to set up docs in CI. Just create the gh-pages branch (from the main) and notify settings? Check out [sung actions](https://github.com/thorwhalen/sung/actions). There's also the workflow permissions to check out. See [isee troubleshooting](https://github.com/i2mint/isee?tab=readme-ov-file#github-token-problems-eg-tagging)
-* [ ] [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. See with VF what used to be the deps. 
+* [x] [s3dol](https://github.com/i2mint/s3dol/actions/runs/11797788730/job/32862527293#step:7:1630) not publishing because of validation. Seems like tests depended on something that is not there anymore. See with VF what used to be the deps. 
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
