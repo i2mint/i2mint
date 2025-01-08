@@ -1,6 +1,5 @@
 For next i2mint synch meeting:
 
-* [ ] CI publishing is red, but still publishes. [Example here](https://github.com/cosmograph-org/py_cosmograph/actions/runs/12470074713/job/34804523681#step:7:207)
 * [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
 * [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch. --> Check out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee]().
 * [ ] docker-compose problem of [kafkaposted CI](https://github.com/i2mint/kafkaposted/actions/runs/11794840638/job/32853290265#step:7:2046)
@@ -9,6 +8,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2025-01-08
+
+* [ ] CI publishing is red, but still publishes. [Example here](https://github.com/cosmograph-org/py_cosmograph/actions/runs/12470074713/job/34804523681#step:7:207)
+    * Problem was newlines in password. Added [troubleshooting mention in isee](https://github.com/i2mint/isee/blob/master/README.md#common-non-fatal-error-during-publishing).
 
 ## 2024-12-10
 
