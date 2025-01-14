@@ -11,7 +11,7 @@ For next i2mint synch meeting:
 
 ## 2025-01-08
 
-* [ ] CI publishing is red, but still publishes. [Example here](https://github.com/cosmograph-org/py_cosmograph/actions/runs/12470074713/job/34804523681#step:7:207)
+* [x] CI publishing is red, but still publishes. [Example here](https://github.com/cosmograph-org/py_cosmograph/actions/runs/12470074713/job/34804523681#step:7:207)
     * Problem was newlines in password. Added [troubleshooting mention in isee](https://github.com/i2mint/isee/blob/master/README.md#common-non-fatal-error-during-publishing).
 
 ## 2024-12-10
