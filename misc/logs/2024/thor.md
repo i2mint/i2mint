@@ -9,6 +9,10 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2025-01-29
+
+* [aix.contexts.PackageCodeContexts](https://github.com/thorwhalen/aix/blob/cee22c3f8489839a8943c8dd535b6515cee1263f/aix/contexts.py#L487): Manages aggregation and saves of the code of local packages
+
 ## 2025-01-28
 
 Discussion with VF about i2i approach. Gathered some references about what we talked about, listed below. 
