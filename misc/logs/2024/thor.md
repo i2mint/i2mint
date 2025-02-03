@@ -9,6 +9,12 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2025-02-03
+
+* [Enhancement Comment: a KeyCodecs.mapped_keys and postelizing invertible_maps
+](https://github.com/i2mint/dol/discussions/46#discussioncomment-12040329)
+* Lot's more work on [msword](https://github.com/thorwhalen/msword) (dol for msword files); wrappers, readme, tests.
+
 ## 2025-01-29
 
 * [aix.contexts.PackageCodeContexts](https://github.com/thorwhalen/aix/blob/cee22c3f8489839a8943c8dd535b6515cee1263f/aix/contexts.py#L487): Manages aggregation and saves of the code of local packages
