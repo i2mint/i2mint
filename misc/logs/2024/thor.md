@@ -9,6 +9,12 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2025-02-08
+
+* [FindReplaceTool](https://github.com/i2mint/lkj/blob/c6fbe0c78871040b87ece2cbf821870d4ab18880/lkj/strings.py#L421): A general-purpose find-and-replace tool.
+* Solved the `set -e` problem using `FindReplaceTool`. [See how here](https://github.com/i2mint/lkj/discussions/4#discussioncomment-12104547)
+  
 ## 2025-02-03
 
 * [Enhancement Comment: a KeyCodecs.mapped_keys and postelizing invertible_maps
