@@ -10,6 +10,10 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2025-02-24
+
+* Overhaul of [dropboxdol](https://pypi.org/project/dropboxdol/)
+  
 ## 2025-02-08
 
 * [FindReplaceTool](https://github.com/i2mint/lkj/blob/c6fbe0c78871040b87ece2cbf821870d4ab18880/lkj/strings.py#L421): A general-purpose find-and-replace tool.
