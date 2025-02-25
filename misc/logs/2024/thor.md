@@ -9,6 +9,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2025-02-25
+
+* `estate`'s [remove_decorator_code and separate_decorator_code](https://github.com/thorwhalen/astate/blob/7d1670d60d4431c2d04874eb6cf68e10a8ad6ae3/extract.py#L8)
+* `meshed` [contract_function_calls](https://github.com/i2mint/meshed/blob/cb467c6c94409928aa3986665fba156d7d4c1f55/meshed/scrap/collapse_and_expand.py#L78): Contract function calls in a source code string.
+
 
 ## 2025-02-24
 
