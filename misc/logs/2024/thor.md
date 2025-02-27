@@ -9,6 +9,12 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2025-02-27
+
+* ``: [lkj.CallOnError](https://github.com/i2mint/lkj/blob/e6884485198596be33a9b2f1397d2a6a9d8ca4b6/lkj/loggers.py#L422): An extension of the suppress context manager that enables the user to issue a warning message when an import error occurs.
+
+
 ## 2025-02-25
 
 * `estate`'s [remove_decorator_code and separate_decorator_code](https://github.com/thorwhalen/astate/blob/7d1670d60d4431c2d04874eb6cf68e10a8ad6ae3/extract.py#L8)
