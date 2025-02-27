@@ -12,7 +12,7 @@ For next i2mint synch meeting:
 
 ## 2025-02-27
 
-* ``: [lkj.CallOnError](https://github.com/i2mint/lkj/blob/e6884485198596be33a9b2f1397d2a6a9d8ca4b6/lkj/loggers.py#L422): An extension of the suppress context manager that enables the user to issue a warning message when an import error occurs.
+* [lkj.CallOnError](https://github.com/i2mint/lkj/blob/e6884485198596be33a9b2f1397d2a6a9d8ca4b6/lkj/loggers.py#L422): An extension of the suppress context manager that enables the user to issue a warning message when an import error occurs.
 
 
 ## 2025-02-25
