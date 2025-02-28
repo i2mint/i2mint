@@ -10,6 +10,11 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2025-02-28
+
+* [pdfdol.get_pdf](https://github.com/i2mint/pdfdol/blob/358a575149fe9bb252b142f803a6734d373a20de/pdfdol/tools.py#L93): Convert the given source to a PDF (bytes) and process it using the specified egress.
+* [Testing different AI's ability to produce SVG](https://github.com/thorwhalen/aix/discussions/7#discussioncomment-12350529)
+
 ## 2025-02-27
 
 * [lkj.CallOnError](https://github.com/i2mint/lkj/blob/e6884485198596be33a9b2f1397d2a6a9d8ca4b6/lkj/loggers.py#L422): An extension of the suppress context manager that enables the user to issue a warning message when an import error occurs.
