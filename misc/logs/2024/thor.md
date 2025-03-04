@@ -14,7 +14,7 @@ For next i2mint synch meeting:
 * [get_markdown comment](https://github.com/thorwhalen/aix/discussions/3#discussioncomment-12387852)
   * implemented this as [aix.bytes_to_markdown]([convert_to_markdown](https://github.com/thorwhalen/aix/blob/f2604e0a33405cf53f944bbd9932b6684927b92d/aix/contexts.py#L245)): Convert bytes of a given format to markdown text
   * implemented [aix.bytes_store_to_markdown_store](https://github.com/thorwhalen/aix/blob/f2604e0a33405cf53f944bbd9932b6684927b92d/aix/contexts.py#L327) that uses `convert_to_markdown` to convert a whole store (e.g. files of a folder) to a store with markdown versions (this store could also be a dict, which we can convert to a single aggregate file using `aix.aggregate_store`).
-  * Example in [this notebook](https://github.com/thorwhalen/aix/blob/ffa15b7bdc3b1281ac9d70fb6bb8f80f1186bbc2/misc/aix_contexts_wip.ipynb#L1)
+  * Example in [this notebook](https://github.com/thorwhalen/aix/blob/2564726676e65a316732948e145f00219aa34305/misc/aix_contexts_wip.ipynb#L1)
 
 ## 2025-02-28
 
