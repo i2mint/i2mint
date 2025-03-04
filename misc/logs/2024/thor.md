@@ -9,6 +9,12 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2025-03-04
+
+* [get_markdown comment](https://github.com/thorwhalen/aix/discussions/3#discussioncomment-12387852)
+  * implemented this as [aix.convert_to_markdown]([convert_to_markdown](https://github.com/thorwhalen/aix/blob/c7db3710a229179a4361de131aacb35f9d82a786/aix/contexts.py#L245)): Convert bytes of a given format to markdown text
+  * implemented [aix.convert_files_to_markdown](https://github.com/thorwhalen/aix/blob/c7db3710a229179a4361de131aacb35f9d82a786/aix/contexts.py#L327) that uses `convert_to_markdown` to convert a whole store (e.g. files of a folder) to a store with markdown versions (this store could also be a dict, which we can convert to a single aggregate file using `aix.aggregate_store`).
+  * Example in [this notebook](https://github.com/thorwhalen/aix/blob/ffa15b7bdc3b1281ac9d70fb6bb8f80f1186bbc2/misc/aix_contexts_wip.ipynb#L1)
 
 ## 2025-02-28
 
