@@ -9,6 +9,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+## 2025-03-11
+
+* [Mutable Mapping Interface for Filesystems and Blob Storage - Data Type Flexibility](https://github.com/i2mint/dol/discussions/53#discussioncomment-12460364)
+
+
 ## 2025-03-04
 
 * [get_markdown comment](https://github.com/thorwhalen/aix/discussions/3#discussioncomment-12387852)
