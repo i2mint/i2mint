@@ -9,6 +9,11 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+
+## 2025-03-13
+
+* Closed `xdol` [Issue: Flexible Mapping Update with Customizable Key Policies](https://github.com/i2mint/xdol/issues/2) with [update_with_policy](https://github.com/i2mint/xdol/blob/c0a5e8b4444e8d6b93371da0cc412b68b5b05774/xdol/updating.py#L310)
+  
 ## 2025-03-11
 
 * [Mutable Mapping Interface for Filesystems and Blob Storage - Data Type Flexibility](https://github.com/i2mint/dol/discussions/53#discussioncomment-12460364)
