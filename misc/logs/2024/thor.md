@@ -19,7 +19,7 @@ For next i2mint synch meeting:
 ## 2025-03-11
 
 * [Mutable Mapping Interface for Filesystems and Blob Storage - Data Type Flexibility](https://github.com/i2mint/dol/discussions/53#discussioncomment-12460364)
-
+* Started (and later closed) work on [Design Proposal: Recursive Functionality for SshFilesReader/SshFiles](https://github.com/i2mint/sshdol/issues/1)
 
 ## 2025-03-04
 
