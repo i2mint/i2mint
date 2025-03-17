@@ -13,7 +13,9 @@ For next i2mint synch meeting:
 ## 2025-03-13
 
 * Closed `xdol` [Issue: Flexible Mapping Update with Customizable Key Policies](https://github.com/i2mint/xdol/issues/2) with [update_with_policy](https://github.com/i2mint/xdol/blob/c0a5e8b4444e8d6b93371da0cc412b68b5b05774/xdol/updating.py#L310)
-  
+* [Discussion comment: Already existing (sorta) finer types
+](https://github.com/i2mint/i2/discussions/77#discussioncomment-12485697). Finer types than the collections.abc ones
+
 ## 2025-03-11
 
 * [Mutable Mapping Interface for Filesystems and Blob Storage - Data Type Flexibility](https://github.com/i2mint/dol/discussions/53#discussioncomment-12460364)
