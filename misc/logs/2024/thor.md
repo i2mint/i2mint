@@ -12,7 +12,7 @@ For next i2mint synch meeting:
 
 ## 2025-03-18
 
-* [tabled.duplicate_groups]([https://github.com/i2mint/tabled/blob/fd5286c19756249fefdc8d41b730e13a50312ae6/tabled/util.py#L14](https://github.com/i2mint/tabled/blob/feda7e4f98f042b246d7a58994733a35dd888662/tabled/util.py#L14)): get the groups of duplicates in a dataframe
+* [tabled.duplicate_groups](https://github.com/i2mint/tabled/blob/fd5286c19756249fefdc8d41b730e13a50312ae6/tabled/util.py#L14)(https://github.com/i2mint/tabled/blob/feda7e4f98f042b246d7a58994733a35dd888662/tabled/util.py#L14)): get the groups of duplicates in a dataframe
 * [lkj.compare_field_values](https://github.com/i2mint/lkj/blob/9795e74eeb9fd44453504c5503763269fa6e8669/lkj/dicts.py#L231): Compare two dictionaries' values field by field (with functional parameters)
 * [oa._resources](https://github.com/thorwhalen/oa/blob/d09fb369b581846ee72db3016e3d9fb2f5f9ddc4/oa/_resources.py): Tools for SSOT for oa, etc.
    * [oa._resources.compare_pricing_info_to_model_info](https://github.com/thorwhalen/oa/blob/d09fb369b581846ee72db3016e3d9fb2f5f9ddc4/oa/_resources.py#L49) to compare code hard coded information and documentation parsed one
