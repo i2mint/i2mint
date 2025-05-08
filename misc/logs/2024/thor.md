@@ -1,5 +1,7 @@
 For next i2mint synch meeting:
 
+* [ ] [see this taped CI error](https://github.com/i2mint/taped/actions/runs/14889823749/job/41818993081#step:2:320). Validation and Publication work, but github publication fails because of system dependency (portaudio) missing. Why and how to repair?
+* [ ] Is there a place for "extra system installs" in the isee tools?
 * [ ] See [Comment on "More robust version handling: Keep versions aligned." issue](https://github.com/i2mint/isee/issues/30#issuecomment-2589617985)
 * [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
 * [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch. --> Check out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee]().
@@ -10,6 +12,11 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2025-05-07
+
+* Changed isee actions code for pytest ignore (wasn't ignoring scrap and examples in pytest, resulting in import errors (dependencies not there))
+* Made [taped ci](https://github.com/i2mint/taped/blob/master/.github/workflows/ci.yml) work --> needed to add system dependencies
+  
 ## 2025-03-18
 
 * [tabled.duplicate_groups](https://github.com/i2mint/tabled/blob/fd5286c19756249fefdc8d41b730e13a50312ae6/tabled/util.py#L14): get the groups of duplicates in a dataframe
