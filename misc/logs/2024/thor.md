@@ -14,6 +14,7 @@ For next i2mint synch meeting:
 
 ## 2025-05-13
 
+* [dol: ReprMixin](https://github.com/i2mint/dol/blob/fe070639101178de3a9a6c368c6ec8f94d452a48/dol/filesys.py#L639): To use to force a nicer repr (because trans wrappers make it hard to recover the name of the original class)
 * [xdol: resolve_values_to_bytes](https://github.com/i2mint/xdol/blob/98370a76d01c5996b985abb7076409890a491e2a/xdol/x_codecs.py#L10): Value-encoding wrapper to encode to bytes.
 * [dol: Use the standard lib codecs module?](https://github.com/i2mint/dol/discussions/46#discussioncomment-13131581)
 * [dol: Standard lib support for postget and preset](https://github.com/i2mint/dol/discussions/46#discussioncomment-13131631)
