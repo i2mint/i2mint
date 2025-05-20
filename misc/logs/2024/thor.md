@@ -1,6 +1,7 @@
 For next i2mint synch meeting:
 
 
+* [ ] s3dol tests pass on CI, but not locally: E.g.: `FAILED s3dol/tests/test_base.py::test_s3_dol_crud[localstack-localstack-http://localhost:4566] - s3dol.utility.S3DolException: Error checking bucket existence: Could not connect to the endpoint URL: "http://localhost:4566/test-bucket"`
 * [ ] See [Comment on "More robust version handling: Keep versions aligned." issue](https://github.com/i2mint/isee/issues/30#issuecomment-2589617985)
 * [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
 * [ ] **master/main CI branch problem**. Have a look at how to (1) specify CI-triggering branch as a variable, (2) specify several, and (3) default to default branch. --> Check out [this solution to get default branch in CI](https://github.com/marketplace/actions/get-the-default-branch). I repaired it and did a [pull request](https://github.com/scottmmjackson/get-the-default-branch-action/pull/2). I also tested it [in isee]().
