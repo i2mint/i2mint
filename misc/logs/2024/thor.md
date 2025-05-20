@@ -1,6 +1,6 @@
 For next i2mint synch meeting:
 
-
+* [ ] [S3ClientDol.__setitem__](https://github.com/i2mint/s3dol/blob/6effff79155a0d13af3aac1c751653454ea2e0cd/s3dol/base.py#L255-L256) takes Mapping values? But why? And how is it actually tested with binary [here](https://github.com/i2mint/s3dol/blob/6effff79155a0d13af3aac1c751653454ea2e0cd/s3dol/tests/test_store.py#L36)?
 * [ ] s3dol tests pass on CI, but not locally: E.g.: `FAILED s3dol/tests/test_base.py::test_s3_dol_crud[localstack-localstack-http://localhost:4566] - s3dol.utility.S3DolException: Error checking bucket existence: Could not connect to the endpoint URL: "http://localhost:4566/test-bucket"`
 * [ ] See [Comment on "More robust version handling: Keep versions aligned." issue](https://github.com/i2mint/isee/issues/30#issuecomment-2589617985)
 * [ ] See the local (i2mint/qo) solution of some CI syntax problem [in this log entry](https://github.com/i2mint/i2mint/blob/main/misc/logs/2024/thor.md#2024-12-10). Need to find where to change this in `isee` templates.
