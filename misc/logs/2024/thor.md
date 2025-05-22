@@ -12,6 +12,11 @@ For next i2mint synch meeting:
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
 
+## 2025-05-22
+
+* [cw](https://github.com/i2mint/cw/): Tools for python to CLI
+* [dn](https://github.com/thorwhalen/dn): Tools for parsing and generating markdown.
+
 ## 2025-05-20
 
 * [s3dol.store:SupabaseS3BucketDol etc](https://github.com/i2mint/s3dol/blob/c7b8afe70f5432620c6eacba0ef0598d70ec1aa4/s3dol/store.py#L150). Supabase has a different API than standard AWS, so needed some adaptation.
