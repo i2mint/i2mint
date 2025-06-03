@@ -11,6 +11,8 @@ For next i2mint synch meeting:
 * [ ] [making CI fail when there's an error](https://github.com/i2mint/i2mint/discussions/13#discussioncomment-10529978)
 * [ ] Look into, the signature-comparison framework (see https://github.com/i2mint/i2/discussions/63 and https://github.com/i2mint/i2/discussions/76). Concrete goal: Refactor `is_call_compatible` to the framework.
 
+TODOs:
+* Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
 ## 2025-05-22
 
