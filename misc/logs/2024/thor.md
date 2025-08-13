@@ -11,6 +11,27 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+## 2025-08-13
+
+### fix: `wads` gh-pages ci template
+
+Reason was that was checking for `master` branch to do its job. Changed condition to be "if on default branch". 
+
+That is, replaced
+
+```
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && github.ref == 'refs/heads/master'"
+```
+
+with
+
+```
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)"
+```
+
+Replaced all current CIs wti this new one, and updated wads template.
+
+
 ## 2025-05-22
 
 * [cw](https://github.com/i2mint/cw/): Tools for python to CLI
