@@ -11,6 +11,11 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+## 2025-08-20
+
+* [sshdol tool](https://github.com/i2mint/sshdol?tab=readme-ov-file#fast-sync-to-local-folder) for **fast** local sync (copying missing files from remote to local). 
+* VF pointed out ACT, a tool for local github actions. Gathered some [ACT installation info and scripts]([ACT](https://github.com/i2mint/isee/issues/15#issuecomment-3205177201)) under the (old) issue for this isee enhancement.
+
 ## 2025-08-13
 
 ### fix: `wads` gh-pages ci template
