@@ -14,6 +14,8 @@ TODOs:
 ## 2025-08-21
 
 * Published Podcast: [Private AI: The Future of Encrypted Machine Learning](https://open.spotify.com/episode/3Y8BpFHl9AmRnRaJrOQNAL?si=9H_P-2CxTu-TG60IhOruxA)
+  * [Interactive dashboard](https://thorwhalen.com/y/2025/private_ai.html)
+  * [Report](https://drive.google.com/file/d/1sipwp73O2_xXgr5juUNoYAeSdEAP-3Zb/view)
 
 ## 2025-08-20
 
