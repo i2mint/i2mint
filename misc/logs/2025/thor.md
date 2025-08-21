@@ -11,6 +11,10 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+## 2025-08-21
+
+* [Private AI: The Future of Encrypted Machine Learning](https://open.spotify.com/episode/3Y8BpFHl9AmRnRaJrOQNAL?si=9H_P-2CxTu-TG60IhOruxA)
+
 ## 2025-08-20
 
 * [sshdol tool](https://github.com/i2mint/sshdol?tab=readme-ov-file#fast-sync-to-local-folder) for **fast** local sync (copying missing files from remote to local). 
