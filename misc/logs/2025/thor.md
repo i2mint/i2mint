@@ -13,7 +13,7 @@ TODOs:
 
 ## 2025-08-21
 
-* [Private AI: The Future of Encrypted Machine Learning](https://open.spotify.com/episode/3Y8BpFHl9AmRnRaJrOQNAL?si=9H_P-2CxTu-TG60IhOruxA)
+* Published Podcast: [Private AI: The Future of Encrypted Machine Learning](https://open.spotify.com/episode/3Y8BpFHl9AmRnRaJrOQNAL?si=9H_P-2CxTu-TG60IhOruxA)
 
 ## 2025-08-20
 
