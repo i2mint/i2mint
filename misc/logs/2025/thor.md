@@ -11,6 +11,10 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+## 2025-08-29
+
+* [rh](https://github.com/i2mint/rh): Transform variable relationships into interactive web applications with real-time updates (using rjsf)
+
 ## 2025-08-21
 
 * Published Podcast: [Private AI: The Future of Encrypted Machine Learning](https://open.spotify.com/episode/3Y8BpFHl9AmRnRaJrOQNAL?si=9H_P-2CxTu-TG60IhOruxA)
