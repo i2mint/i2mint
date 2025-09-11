@@ -23,7 +23,7 @@ TODOs:
   
 ## 2025-05-17
 
-* [vd: Value Dispatch: Wire Python functions to stores for seamless input/output handling.](https://pypi.org/project/vd/)
+* [stored: Value Dispatch: Wire Python functions to stores for seamless input/output handling.](https://pypi.org/project/stored/)
   
 ## 2025-05-13
 
