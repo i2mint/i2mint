@@ -12,6 +12,11 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+## 2025-09-11
+
+* copied [vd (value dispatch)]([https://github.com/i2mint/vd](https://github.com/i2mint/vd/tree/value_dispatch)) to [vd](https://github.com/i2mint/stored) to liberate [vd](https://github.com/i2mint/vd) for vector-database facade tool. "Value dispatch" was any way too general of a term. So far, `vd` only had io-wiring tools (to source function inputs from, and persist outputs to, stores)
+* did a bunch more design brain storming with AI (for vectorDB features, vectorDB facades, etc.)
+  
 ## 2025-08-29
 
 * [rh](https://github.com/i2mint/rh): Transform variable relationships into interactive web applications with real-time updates (using rjsf)
