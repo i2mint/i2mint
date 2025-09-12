@@ -12,6 +12,12 @@ For next i2mint synch meeting:
 TODOs:
 * Update all i2mint projects to include `ignore: "tests/,scrap/"` in publish block. Think of other things to update.
 
+# 2025-09-12
+
+* Noted this: [see github's deprecation and migration instructions](https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/). Addressed by doing [this](https://github.com/i2mint/isee/blob/78fdfd757779e36ab5c6ae8990c5e6d1b17b3ff9/actions/bump-version-number/action.yml#L26).
+* closed [Issue: Make pytest-validation install test dependencies from setup.cfg](https://github.com/i2mint/isee/issues/34)
+* modified wads (update version number functions, which didn't work if there wasn't already a package published)
+  
 ## 2025-09-11
 
 * copied [vd(value dispatch)](https://github.com/i2mint/vd/tree/value_dispatch) to [stored](https://github.com/i2mint/stored) to liberate [vd](https://github.com/i2mint/vd) for vector-database facade tool. "Value dispatch" was any way too general of a term. So far, `vd` only had io-wiring tools (to source function inputs from, and persist outputs to, stores)
