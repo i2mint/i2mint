@@ -20,7 +20,7 @@ TODOs:
   
 ## 2025-09-11
 
-* copied [vd(value dispatch)](https://github.com/i2mint/vd/tree/value_dispatch) to [stored](https://github.com/i2mint/stored) to liberate [vd](https://github.com/i2mint/vd) for vector-database facade tool. "Value dispatch" was any way too general of a term. So far, `vd` only had io-wiring tools (to source function inputs from, and persist outputs to, stores)
+* copied [vd(value dispatch)](https://github.com/i2mint/vd/tree/value_dispatch) to [larder](https://github.com/i2mint/larder) to liberate [vd](https://github.com/i2mint/vd) for vector-database facade tool. "Value dispatch" was any way too general of a term. So far, `vd` only had io-wiring tools (to source function inputs from, and persist outputs to, stores)
 * did a bunch more design brain storming with AI (for vectorDB features, vectorDB facades, etc.)
   
 ## 2025-08-29
