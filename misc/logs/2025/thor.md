@@ -1,5 +1,6 @@
 For next i2mint synch meeting:
 
+* [ ] See [this CI problem with publishing docs](https://github.com/thorwhalen/hf/actions/runs/18390588925/job/52399860182). It's [this CI](https://github.com/thorwhalen/hf/blob/665d15f1c090090c161557d64853091cff00f213/.github/workflows/ci.yml) spec
 * [ ] [issue: isee tool to get testing deps from setup.cfg](https://github.com/i2mint/isee/issues/34)
 * [ ] [S3ClientDol.__setitem__](https://github.com/i2mint/s3dol/blob/6effff79155a0d13af3aac1c751653454ea2e0cd/s3dol/base.py#L255-L256) takes Mapping values? But why? And how is it actually tested with binary [here](https://github.com/i2mint/s3dol/blob/6effff79155a0d13af3aac1c751653454ea2e0cd/s3dol/tests/test_store.py#L36)?
 * [ ] s3dol tests pass on CI, but not locally: E.g.: `FAILED s3dol/tests/test_base.py::test_s3_dol_crud[localstack-localstack-http://localhost:4566] - s3dol.utility.S3DolException: Error checking bucket existence: Could not connect to the endpoint URL: "http://localhost:4566/test-bucket"`
